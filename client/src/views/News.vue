@@ -1,328 +1,78 @@
 <template>
-<div class="container">
-    <div class="row mb-2">
-        <div class="col-12 text-center pt-3">
-            <h1>SERVER NEWS LIVE</h1>
-        </div>
-    </div>
-    
-    <!--Start code-->
-    <div class="row" style="    margin-bottom: -130px;">
-        <div class="col-12 pb-5">
-            <!--SECTION START-->
-            <section class="row">
-                <!--Start slider news-->
-                <div class="col-12 col-md-6 pb-0 pb-md-3 pt-2 pr-md-1">
-                    <div id="featured" class="carousel slide carousel" data-ride="carousel">
-                        <!--dots navigate-->
-                        <ol class="carousel-indicators top-indicator">
-                            <li data-target="#featured" data-slide-to="0" class="active"></li>
-                            <li data-target="#featured" data-slide-to="1"></li>
-                            <li data-target="#featured" data-slide-to="2"></li>
-                            <li data-target="#featured" data-slide-to="3"></li>
-                        </ol>
-                        
-                        <!--carousel inner-->
-                        <div class="carousel-inner">
-                            <!--Item slider-->
-                            <div class="carousel-item active">
-                                <div class="card border-0 rounded-0 text-light overflow zoom">
-                                    <div class="position-relative">
-                                        <!--thumbnail img-->
-                                        <div class="ratio_left-cover-1 image-wrapper">
-                                            <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                                <img class="img-fluid w-100"
-                                                     src="../assets/news5.jpg"
-                                                     alt="Bootstrap news template">
-                                            </a>
-                                        </div>
-                                        <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
-                                            <!--title-->
-                                            <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                                <h2 class="h3 post-title text-white my-1">Trump Ban Europe</h2>
-                                            </a>
-                                            <!-- meta title -->
-                                            <div class="news-meta">
-                                                <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
-                                                <span class="news-date">Oct 22, 2019</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!--Item slider-->
-                            <div class="carousel-item">
-                                <div class="card border-0 rounded-0 text-light overflow zoom">
-                                    <div class="position-relative">
-                                        <!--thumbnail img-->
-                                        <div class="ratio_left-cover-1 image-wrapper">
-                                            <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                                <img class="img-fluid w-100"
-                                                     src="../assets/news1.jpg"
-                                                     alt="Bootstrap news theme">
-                                            </a>
-                                        </div>
-                                        <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
-                                            <!--title-->
-                                            <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                                <h2 class="h3 post-title text-white my-1">Walmart shares up 10% on online sales lift</h2>
-                                            </a>
-                                            <!-- meta title -->
-                                            <div class="news-meta">
-                                                <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
-                                                <span class="news-date">Oct 22, 2019</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!--Item slider-->
-                            <div class="carousel-item">
-                                <div class="card border-0 rounded-0 text-light overflow zoom">
-                                    <div class="position-relative">
-                                        <!--thumbnail img-->
-                                        <div class="ratio_left-cover-1 image-wrapper">
-                                            <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                                <img class="img-fluid w-100"
-                                                     src="https://bootstrap.news/source/img3.jpg"
-                                                     alt="Bootstrap blog template">
-                                            </a>
-                                        </div>
-                                        <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
-                                            <!--title-->
-                                            <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                                <h2 class="h3 post-title text-white my-1">Bank chief warns on Brexit staff moves to other company</h2>
-                                            </a>
-                                            <!-- meta title -->
-                                            <div class="news-meta">
-                                                <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
-                                                <span class="news-date">Oct 22, 2019</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!--Item slider-->
-                            <div class="carousel-item">
-                                <div class="card border-0 rounded-0 text-light overflow zoom">
-                                    <div class="position-relative">
-                                        <!--thumbnail img-->
-                                        <div class="ratio_left-cover-1 image-wrapper">
-                                            <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                                <img class="img-fluid w-100"
-                                                     src="https://bootstrap.news/source/img4.jpg"
-                                                     alt="Bootstrap portal template">
-                                            </a>
-                                        </div>
-                                        <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
-                                            <!--title-->
-                                            <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                                <h2 class="h3 post-title text-white my-1">The world's first floating farm making waves in Rotterdam</h2>
-                                            </a>
-                                            <!-- meta title -->
-                                            <div class="news-meta">
-                                                <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
-                                                <span class="news-date">Oct 22, 2019</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--end item slider-->
-                        </div>
-                        <!--end carousel inner-->
-                    </div>
-                    
-                    <!--navigation-->
-                    <a class="carousel-control-prev" href="#featured" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#featured" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-                <!--End slider news-->
-                
-                <!--Start box news-->
-                <div class="col-12 col-md-6 pt-2 pl-md-1 mb-3 mb-lg-4">
-                    <div class="row">
-                        <!--news box-->
-                        <div class="col-6 pb-1 pt-0 pr-1">
-                            <div class="card border-0 rounded-0 text-white overflow zoom">
-                                <div class="position-relative">
-                                    <!--thumbnail img-->
-                                    <div class="ratio_right-cover-2 image-wrapper">
-                                        <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                            <img class="img-fluid"
-                                                 src="../assets/news1.jpg"
-                                                 alt="simple blog template bootstrap">
-                                        </a>
-                                    </div>
-                                    <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
-                                        <!-- category -->
-                                        <a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Lifestyle</a>
+<section class="main">
+<div class="container mt-4">
+    <h1 class="text-center mb-4 p-4 text-danger" style="text-shadow: 1px 1px #000000;">News Articles</h1>
+      <div class="row">
 
-                                        <!--title-->
-                                        <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                            <h2 class="h5 text-white my-1">Why face mask is important.</h2>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!--news box-->
-                        <div class="col-6 pb-1 pl-1 pt-0">
-                            <div class="card border-0 rounded-0 text-white overflow zoom">
-                                <div class="position-relative">
-                                    <!--thumbnail img-->
-                                    <div class="ratio_right-cover-2 image-wrapper">
-                                        <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                            <img class="img-fluid"
-                                                 src="../assets/news2.jpg"
-                                                 alt="bootstrap templates for blog">
-                                        </a>
-                                    </div>
-                                    <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
-                                        <!-- category -->
-                                        <a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Motocross</a>
-                                        <!--title-->
-                                        <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                            <h2 class="h5 text-white my-1">BPO employees are risking their health to work.</h2>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!--news box-->
-                        <div class="col-6 pb-1 pr-1 pt-1">
-                            <div class="card border-0 rounded-0 text-white overflow zoom">
-                                <div class="position-relative">
-                                    <!--thumbnail img-->
-                                    <div class="ratio_right-cover-2 image-wrapper">
-                                        <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                            <img class="img-fluid"
-                                                 src="../assets/news3.jpg"
-                                                 alt="bootstrap blog wordpress theme">
-                                        </a>
-                                    </div>
-                                    <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
-                                        <!-- category -->
-                                        <a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Fitness</a>
-                                        <!--title-->
-                                        <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                            <h2 class="h5 text-white my-1">President Dutere's Speech</h2>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!--news box-->
-                        <div class="col-6 pb-1 pl-1 pt-1">
-                            <div class="card border-0 rounded-0 text-white overflow zoom">
-                                <div class="position-relative">
-                                    <!--thumbnail img-->
-                                    <div class="ratio_right-cover-2 image-wrapper">
-                                        <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                            <img class="img-fluid"
-                                                 src="../assets/news4.jpg"
-                                                 alt="blog website templates bootstrap">
-                                        </a>
-                                    </div>
-                                    <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
-                                        <!-- category -->
-                                        <a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Adventure</a>
-                                        <!--title-->
-                                        <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                            <h2 class="h5 text-white my-1">China fights COVID-19</h2>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end news box-->
-                    </div>
-                </div>
-                <!--End box news-->
-            </section>
-            <!--END SECTION-->
-        </div>
+   <div class="card-columns">
+  <div class="card shadow border-0">
+    <img class="card-img-top" src="../assets/news3.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Concerns In Philippines After Duterte Given Emergency Powers To Fight COVID-19 Spread</h5>
+      <p class="card-text">In the Philippines, Congress granted President Rodrigo Duterte special temporary powers on Tuesday to manage the COVID-19 crisis that continues to surge in the country of 110 million people.To date, there are 552 confirmed cases, and 35 deaths.</p>
+      <p class="card-text"><small class="text-muted">March 26, 2020</small></p>
     </div>
-    <!--end code-->
-
-    <div class="container">
-	<div class="row">
-<div class="card border-danger golge">
-<div class="card-header"><a href="anasayfa.html" class="isteColor">
-    <h5 class="text-center m-2" style="font-weight: bold">NEWS FLOW</h5>
-    </a></div>
-<div class="card-body">
-    <div class="carousel vert slide" data-ride="carousel" data-interval="2000">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-        <ul class="timeline">
-            <li>
-            <!--"_blank" tıklanan linkin yeni sekmede açılmasını sağlar.-->
-            <a target="_blank" href="#">News Headline</a>
-            <a href="#" class="float-right">09 Ocak, 2019</a>
-            <p class="article">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            </li>
-            <hr>
-            <li>
-            <a href="#">News Headline</a>
-            <a href="#" class="float-right">4 Temmuz, 2018</a>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-            </li>
-            <hr>
-            <li>
-            <a href="#">News Headline</a>
-            <a href="#" class="float-right">4 Temmuz, 2018</a>
-            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-            </li>
-        </ul>
-        </div>
-        <div class="carousel-item">
-        <ul class="timeline">
-            <li>
-            <a href="#">News Headline</a>
-            <a href="#" class="float-right">09 Ocak, 2019</a>
-            <p class="article">>Haberler burada gözükecek..Haberler burada gözükecek..Haberler burada
-                gözükecek..Haberler burada gözükecek..Haberler burada gözükecek..</p>
-            </li>
-            <hr>
-            <li>
-            <a href="#">News Headline</a>
-            <a href="#" class="float-right">4 Temmuz, 2018</a>
-            <p>Haberler burada gözükecek..Haberler burada gözükecek..Haberler burada gözükecek..Haberler
-                burada gözükecek..Haberler burada gözükecek..Haberler burada gözükecek..Haberler burada
-                gözükecek..</p>
-            </li>
-            <hr>
-            <li>
-            <a href="#">News Headline</a>
-            <a href="#" class="float-right">4 Temmuz, 2018</a>
-            <p>Haberler burada gözükecek..Haberler burada gözükecek..Haberler burada gözükecek..Haberler
-                burada gözükecek..Haberler burada gözükecek..Haberler burada gözükecek..Haberler burada
-                gözükecek..</p>
-            </li>
-        </ul>
-        </div>
+  </div>
+  <div class="card shadow border-0  p-3">
+    <blockquote class="blockquote mb-0 card-body">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card shadow border-0">
+    <img class="card-img-top" src="../assets/news5.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Live updates: Senate passes $2.2 trillion emergency relief package; Much of the world is under coronavirus lockdown</h5>
+      <p class="card-text">The Senate unanimously passed a $2.2 trillion emergency relief package late Wednesday, concluding a grim day in which health departments around the United States reported more than 200 coronavirus-related deaths.</p>
+      <p class="card-text"><small class="text-muted">March 26, 2020</small></p>
     </div>
+  </div>
+  <div class="card shadow border-0 bg-primary text-white text-center p-3">
+    <blockquote class="blockquote mb-0">
+      <p>China, U.S. to set aside differences in G20 coronavirus summit: SCMP</p>
+      <footer class="blockquote-footer">
+        <small>
+          Source <cite title="Source Title">www.aljazeera.com</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card shadow border-0 text-center">
+    <div class="card-body">
+      <h5 class="card-title">US warship sails through Taiwan Strait amid tensions with China</h5>
+      <p class="card-text">US says destroyer USS McCampbell conducted 'routine Taiwan Strait transit' in accordance with international law.</p>
+      <p class="card-text"><small class="text-muted">Last updated 5 hours ago</small></p>
     </div>
+  </div>
+  <div class="card shadow border-0">
+    <img class="card-img" src="../assets/news4.jpg" alt="Card image">
+  </div>
+  <div class="card shadow border-0 p-3 text-right">
+    <blockquote class="blockquote mb-0">
+      <h5 class="card-title">China in coronavirus propaganda push as US ties worsen</h5>
+      <p>State media lauds China as global leader in fight against disease in bid to defuse criticism it allowed virus to spread.</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          Source <cite title="Source Title">www.aljazeera.com</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card shadow border-0">
+    <div class="card-body">
+      <h5 class="card-title">PH coronavirus cases spike to 636, death toll hits 38</h5>
+      <p class="card-text">MANILA, Philippines – The Philippines’ confirmed cases of the novel coronavirus is now at 636 as the Department of Health (DOH) reported 84 new cases on Wednesday, March 25.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
 </div>
 </div>
-</div>
-</div>
-</div>
-
-
+   </div>
+   </section>
 </template>
 
 <style>

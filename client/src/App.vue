@@ -6,6 +6,9 @@
   </div>
 </template>
 
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <script>
 import Navigation from './components/Navbar.vue'
 import Footer from './components/Footer.vue'
@@ -20,7 +23,7 @@ export default {
 
 <style>
 body{
-background: url(https://www.five9.com/media_library/2017/02/form-background.jpg) !important;
+background: url(https://image.shutterstock.com/image-vector/internet-connection-abstract-sense-science-260nw-554257006.jpg) !important;
 background-repeat: no-repeat !important;
 background-size: cover !important;
 }
